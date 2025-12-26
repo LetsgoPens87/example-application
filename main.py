@@ -6,6 +6,6 @@ version = os.getenv("APP_VERSION", "unknown")
 
 @app.route('/')
 def index():
-    return f'Pittsburgh Steelers {version}!'
+    return f'Pittsburgh Steelers and Penguins {version}!'
 
 app.run(host='0.0.0.0', port=8080)
